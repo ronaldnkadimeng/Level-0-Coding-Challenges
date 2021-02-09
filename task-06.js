@@ -1,16 +1,38 @@
-let number1 = 117;
+/*let number1 = 117;
 let number2 = 9;
 let number3 = 3;
 let number4 = 42;
 
-function calculateMaximum(...number) {
+function calculateMaximum(number1, number2, number3) {
   let max = -Infinity;
-  for (var min = 0; min < number.length; min++) {
-    if (number[min] > max) {
-      max = number[min];
+  
+  for (var min = 0; min < numbers.length; min++) {
+    if (numbers[min] > max) {
+      max = numbers[min];
     }
   }
   return max;
 }
 
-console.log(calculateMaximum(number1, number2, number3, number4, 500));
+console.log(calculateMaximum(number1, number2, number3, number4, 500));*/
+
+let number1 = 1;
+let number2 = 22;
+let number3 = 3;
+let number4 = 62;
+
+function calculateMaximum(number1, number2, number3, number4) {
+  let max = 0;
+  if (number1 >= number2 && number1 >= number3 && number1 >= number4) {
+    max = number1;
+  } else if (number2 >= number1 && number2 >= number3 && number2 >= number4) {
+    max = number2;
+  } else if (number3 >= number1 && number3 >= number2 && number3 >= number4) {
+    max = number3;
+  } else {
+    max = number4;
+  }
+  return max;
+}
+
+console.log(calculateMaximum(number1, number2, number3, number4));
