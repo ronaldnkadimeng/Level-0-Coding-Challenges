@@ -1,21 +1,3 @@
-/*let number1 = 117;
-let number2 = 9;
-let number3 = 3;
-let number4 = 42;
-
-function calculateMaximum(number1, number2, number3) {
-  let max = -Infinity;
-  
-  for (var min = 0; min < numbers.length; min++) {
-    if (numbers[min] > max) {
-      max = numbers[min];
-    }
-  }
-  return max;
-}
-
-console.log(calculateMaximum(number1, number2, number3, number4, 500));*/
-
 let number1 = 1;
 let number2 = 22;
 let number3 = 3;
