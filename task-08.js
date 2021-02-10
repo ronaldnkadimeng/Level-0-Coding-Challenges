@@ -1,5 +1,3 @@
-let number = 134;
-
 function convertToTime(number) {
   let stringMinute = "";
   let stringHour = "";
@@ -18,5 +16,3 @@ function convertToTime(number) {
   }
   return hour + " " + stringHour + ", " + minute + " " + stringMinute;
 }
-
-console.log(convertToTime(number));

@@ -1,5 +1,3 @@
-let string = "Ronaldo";
-
 function findVowels(string) {
   let vowelList = "aeiouAEIOU";
   for (var begin = 0; begin < string.length; begin++) {
@@ -8,5 +6,3 @@ function findVowels(string) {
     }
   }
 }
-
-findVowels(string);

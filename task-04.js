@@ -1,5 +1,3 @@
-let integer = 4;
-
 function evenOrOdd(integer) {
   if (integer % 2 === 0) {
     console.log("Even");
@@ -7,5 +5,3 @@ function evenOrOdd(integer) {
     console.log("Odd");
   }
 }
-
-evenOrOdd(integer);
