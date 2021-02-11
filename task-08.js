@@ -16,3 +16,4 @@ function convertToTime(number) {
   }
   return hour + " " + stringHour + ", " + minute + " " + stringMinute;
 }
+console.log(convertToTime(130));

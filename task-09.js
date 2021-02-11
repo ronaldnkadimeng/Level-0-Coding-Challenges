@@ -6,3 +6,4 @@ function findVowels(string) {
     }
   }
 }
+findVowels("Ronald");

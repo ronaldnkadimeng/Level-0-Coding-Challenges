@@ -11,3 +11,4 @@ function calculateMaximum(number1, number2, number3, number4) {
   }
   return max;
 }
+console.log(calculateMaximum(7, 8, 89, 3));

@@ -8,3 +8,4 @@ function findCommonCharacters(string1, string2) {
   }
   console.log(commonCharacters.join(","));
 }
+findCommonCharacters("house", "computers");

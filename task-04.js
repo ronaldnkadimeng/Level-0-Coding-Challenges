@@ -5,3 +5,4 @@ function evenOrOdd(integer) {
     console.log("Odd");
   }
 }
+evenOrOdd(4);

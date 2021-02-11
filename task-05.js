@@ -6,3 +6,4 @@ function calculateArea(side1, side2, side3) {
   );
   return area;
 }
+console.log(calculateArea(78, 96, 78));
